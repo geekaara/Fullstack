@@ -4,5 +4,5 @@ I've started learning Fullstack Web Development
 
 * [Log - click here to see my progress](log.md)
 * [Resources](resources.md)
-* [Projects](Projects.md)
+* [Projects](projects.md)
 * [Blogs](Blogs.md)
