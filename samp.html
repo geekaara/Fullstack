@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+<title>Day 1 Blog</title>
+<style>
+table,th,td{
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+<h2><strong>HTML 1.1 vs HTML 2</strong></h2>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<p><strong>HTML 1.1</strong></p>
+</td>
+<td/>
+<p><strong>HTML 2</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Loads resources one after another, if one resource cannot be loaded it blocks all other resources behind it</p>
+</td>
+<td>
+<p>It uses single TCP connection to send multiple streams of data at once so that no one resource block others by splitting data into binary-code</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Compresses header</p>
+</td>
+<td>
+<p>Advanced compression of header using HPACK which eliminates redundant information</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2><strong>VERSIONS OF HTML</strong></h2>
+<p>HTTP has four versions &mdash; HTTP/0.9, HTTP/1.0, HTTP/1.1, and HTTP/2.0. Today the version in common use is HTTP/1.1 and the future will be HTTP/2.0.</p>
+<p><strong>HTTP/0.9</strong></p>
+<p>It supported only GET method, the response type is only hypertext, the connection terminated immediately after the response and No HTTP, No status/error codes, No URLs, No versioning.</p>
+<p><strong>HTTP/1.0</strong></p>
+<p>Methods supported are GET&nbsp;,&nbsp;HEAD&nbsp;,&nbsp;POST, the connection terminated immediately after the response, responses include hypertext, scripts, stylesheets and media and it has fields for metadata</p>
+<p><strong>HTTP/1.1 </strong></p>
+<p>Introduced critical performance optimizations and feature enhancements like persistent and pipelined connections, chunked transfers, compression/decompression, content negotiations, virtual hosting, faster response and great bandwidth savings by adding cache support.</p>
+<p>Methods supported are GET&nbsp;,&nbsp;HEAD&nbsp;,&nbsp;POST&nbsp;,&nbsp;PUT&nbsp;,&nbsp;DELETE&nbsp;,&nbsp;TRACE&nbsp;,&nbsp;OPTIONS Connection nature is long-lived</p>
+<p><strong>&nbsp;</strong></p>
+<h2><strong>&nbsp;</strong><strong>BROWSER JS&nbsp; VS NODE JS</strong></h2>
+<p><strong>&nbsp;</strong></p>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<p><strong>BROWSER JS</strong></p>
+</td>
+<td>
+<p><strong>NODE JS</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>It is used on client side and run in browsers</p>
+</td>
+<td>
+<p>It is mostly server side and runs outside browser</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Chrome&rsquo;s V8 engine is written in C++</p>
+</td>
+<td>
+<p>It is written in C,C++</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>It uses javascript language</p>
+</td>
+<td>
+<p>It is a javascript runtime</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>It is sandboxed for safety purposes</p>
+</td>
+<td>
+<p>It has full system access</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>It has window, document, global and require objects</p>
+</td>
+<td>
+<p>It does not have window, document, global and require objects</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>&nbsp;</strong></p>
+<h2><strong>WHAT HAPPENS WHEN YOU TYPE A URL IN THE ADDRESS BAR IN THE BROWSER</strong></h2>
+<p><strong>&nbsp;</strong></p>
+<p>You enter a URL into a web browser. The browser looks up the IP address for the domain name via DNS. The browser sends a HTTP&nbsp;<em>request</em>&nbsp;to the server. The server sends back a HTTP&nbsp;<em>response</em>. The browser begins rendering the HTML. The browser sends requests for additional objects embedded in HTML (images, css, JavaScript). Once the page is loaded, the browser sends further async requests as needed.</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+</body>
+</html>
